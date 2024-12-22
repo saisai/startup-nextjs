@@ -3,30 +3,101 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
-    path: "/",
+    title: "Visa & Immigration",
     newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Contract Drafting and Review",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Due Diligence",
+        path: "/contact",
+        newTab: false,
+      },
+    ]
   },
   {
     id: 2,
-    title: "About",
-    path: "/about",
+    title: "Business",
     newTab: false,
-  },
-  {
-    id: 33,
-    title: "Blog",
-    path: "/blog",
-    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Contract Drafting and Review",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Due Diligence",
+        path: "/contact",
+        newTab: false,
+      },
+    ]
   },
   {
     id: 3,
-    title: "Support",
-    path: "/contact",
+    title: "FDA",    
     newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Contract Drafting and Review",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Due Diligence",
+        path: "/contact",
+        newTab: false,
+      },
+    ]
   },
   {
     id: 4,
+    title: "Real Estate",  
+    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Contract Drafting and Review",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Due Diligence",
+        path: "/contact",
+        newTab: false,
+      },
+    ]
+  },
+  {
+    id: 5,
+    title: "Family Law",  
+    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Contract Drafting and Review",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Due Diligence",
+        path: "/contact",
+        newTab: false,
+      },
+    ]
+  },
+  {
+    id: 6,
     title: "Pages",
     newTab: false,
     submenu: [
@@ -64,18 +135,6 @@ const menuData: Menu[] = [
         id: 46,
         title: "Sign In Page",
         path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: "Error Page",
-        path: "/error",
         newTab: false,
       },
     ],
